@@ -3,22 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Marketing Page</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* White */
+            color: #c72323; /* Red */
+            line-height: 1.6;
+        }
+
+        header {
+            font-weight: 550;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        section {
+            padding: 30px 25px;
+            text-align: center;
+            text-justify: inter-word;
+            background-color: #c72323; /* Red */
+            color: #ffffff; /* White */
+        }
+
+        h2 {
+            text-align: center;
+            color: #ffffff; /* White */
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #ffffff; /* White */
+            color: #c72323; /* Red */
+        }
+
+        .f-section{
+            text-align: center;
+            padding: 30px 0;
+            background-color: #ffffff; /* White */
+            color: #c72323; /* Red */
+        }
+
+        .logo {
+            width: 150px; /* Adjust the size as needed */
+            height: auto;
+            margin-bottom: 20px;
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            opacity: 1;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .slogan {
+            width: 100%;
+            top: 150px;
+            max-width: 600px; /* Adjust the maximum width as needed */
+            margin: 0 auto;
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="My Logo">
+        <img src="logo.png" alt="Brand Logo" class="logo">
+        <img src="slogan.png" alt="Centered Image" class="slogan"> 
+        <p>Empowering Your First Computer Experience</p>
     </header>
-    <main>
-        <h1>Welcome to My GitHub Pages Website!</h1>
-        <p>This is the content of my awesome website.</p>
-        <!-- Add more content here -->
-    </main>
+
+    <section id="section1">
+        <h2>Our Mission</h2>
+        <p>At AntMoh, our mission is simple yet powerful – to elevate the initial computer journey for every Indian. We believe in providing the right tools to unlock true potential in an AI-driven world.</p>
+    </section>
+
+    <section id="section2">
+        <h2>Why Macbooks?</h2>
+        <p>Choosing the best laptop is crucial, and Apple Macbooks lead the market. Renowned for productivity and unparalleled value, Macbooks, especially with the groundbreaking M1 chip, stand out. They ensure years of seamless performance, setting industry benchmarks that take years to match. Our choice is clear – M1 Chip Macbooks.</p>
+    </section>
+
+    <section id="section3">
+        <h2>Why AntMoh?</h2>
+        <p>Affordability is our forte. While you can buy a new laptop from any e-commerce platform, is it truly a value-for-money decision for your first device? Probably not. AntMoh offers non-refurbished, meticulously maintained Macbooks that have stood the test of time. Backed by a 6-month warranty, we create value for every penny you invest.</p>
+    </section>
+
+    <section id="section4">
+        <h2>Our Principle</h2>
+        <p>At AntMoh, we live by a simple yet profound principle – "Customer is God, and Good Service is the only way to win them." We are dedicated to providing exceptional service to ensure your satisfaction and build lasting relationships.</p>
+        <p>Discover the AntMoh difference – where affordability meets excellence in your first computer experience!</p>
+    </section>
+
     <footer>
-        <!-- Add your footer content here -->
+        <f-section class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Phone: +91 8374272431</p>
+            <p>Email: antmohns@gmail.com</p>
+        </f-section>
+        <!-- social: linkedin, instagram, youtube -->
+        <p>&copy; 2024 AntMoh. All Rights Reserved.</p>
     </footer>
-    <script src="scripts.js"></script>
+
 </body>
 </html>
-
